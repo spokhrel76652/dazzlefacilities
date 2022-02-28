@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Merriweather:ital,wght@0,300;1,300&family=Mochiy+Pop+P+One&family=Montserrat:wght@100&family=Nunito:wght@200&family=Pacifico&family=Quintessential&family=Supermercado+One&display=swap');
+a{
+  text-decoration: none;
+  color: black;
+}
+h2, h3, h4, form{
+font-family: 'Merriweather', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-weight: 700;
+}
+/* .navbar{
+    background-color: #5cdb95 !important;
+} */
+.nav-item{
+    letter-spacing: 0.05rem;
+}
+.nav-item{
+font-family: 'Merriweather', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-weight: 700;
+}
+
+/* hero section starts here  */
+.col-lg-7{
+    margin-top: 15%;
+  }
+  .hero {
+    background-image: url(img/working.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 2;
+  }
+  .hero::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(43, 35, 85, 0.822);
+    z-index: -1;
+  }
+  section {
+    padding-top: 120px;
+    padding-bottom: 80px;
+  }
+/* hero section ends here    */
+
+p{
+  font-family: 'Merriweather', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-weight: 700;
+font-size: large;
+}
+/* contact us  */
+
+.container.put-box-shadow{
+  border-radius: 10px;
+  box-shadow: -2px 0px 19px 5px rgba(0,0,0,0.31);
+  -webkit-box-shadow: -2px 0px 19px 5px rgba(0,0,0,0.31);
+  -moz-box-shadow: -2px 0px 19px 5px rgba(0,0,0,0.31);
+}
+
+/* contact us ends */
