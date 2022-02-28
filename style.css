@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Merriweather:ital,wght@0,300;1,300&family=Mochiy+Pop+P+One&family=Montserrat:wght@100&family=Nunito:wght@200&family=Pacifico&family=Quintessential&family=Supermercado+One&display=swap');
 a{
   text-decoration: none;
+  color: white;
+}
+a:hover{
   color: black;
 }
 h2, h3, h4, form, li{
